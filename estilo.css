@@ -1,0 +1,86 @@
+body {
+    font-size: 20px;
+    background-color: #25623562;
+}
+
+header {
+    display: flex;
+    /*Definir o seu layout flexível para alterar os elementos*/
+    align-items: center;
+    /*Alinhar itens no centro verticalmente*/
+    justify-content: space-between;
+    /*Espaçar itens*/
+    background-color: rgba(35, 72, 24, 0.593);
+    /*Cor de fundo*/
+    border-radius: 5px;
+    /*Deixar mais redondo*/
+    padding: 1%;
+    /*Margem interna*/
+}
+
+header .profile img {
+    margin: 3px;
+    /*Espaçar a foto do canto*/
+    width: 100px;
+    /*Largura*/
+    height: 100px;
+    /*Altura*/
+    border-radius: 100%;
+    /*Deixar mais redondo*/
+}
+
+header .links a {
+    text-decoration: none;
+    /*Sem decoração*/
+    color: #0077b6;
+    /*Cor*/
+    font-weight: bold;
+    /*Fonte em negrito*/
+    margin: 0 10px;
+    /*Margem esquerda = 0. Margem direita = 10*/
+}
+
+.descricao {
+    text-align: center;
+    /*Alinhar texto no centro*/
+    margin: 20px;
+    /*Margem ao redor*/
+}
+
+.conteudo{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    text-align: center;
+}
+.bloco{
+    width: 30%;
+    background-color: rgba(75, 126, 60, 0.549);
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+}
+.contato{
+    cursor: pointer;
+}
+.falacomigo{
+    text-align: center;
+    margin: 20px;
+}
+form{
+    display: inline-block;
+    text-align: left;
+}
+form label{
+    display: block;
+    margin: 5px 0;
+}
+
+form input{
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
