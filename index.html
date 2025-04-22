@@ -6,6 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Currículo</title>
     <link rel="stylesheet" href="estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&family=Teko:wght@300..700&display=swap"
+        rel="stylesheet">
+
 </head>
 
 <body>
@@ -22,57 +30,64 @@
 
     <!--Corpo do currículo-->
     <section class="descricao">
-        <p>Coloque aqui uma breve descrição sobre você:</p>
+        <p>Eu sou Gabriel Antonio Andrighetto, tenho 16 anos e estou fazendo um currículo.</p>
+        <button id="button" class="button">Continue lendo!</button>
     </section>
     <section class="conteudo">
         <div class="bloco">
             <h2>
                 Experiências anteriores
             </h2>
-            <p>Cite aqui suas experiências anteriores</p>
+            <p>Ainda não tive experiências anteriores.</p>
         </div>
         <div class="bloco">
             <h2>
                 Formação acadêmica
             </h2>
-            <p>Liste aqui sua formação acadêmica</p>
+            <p>Cursando Ensino Médio integrado a Técnico em Informática - Campus Campo Verde.</p>
         </div>
         <div class="bloco">
             <h2>
                 Participação em projetos e eventos
             </h2>
-            <p>Informe sobre projetos e eventos que participou
+            <p>Ainda não participei de um projeto ou evento.
             <p>
         </div>
     </section>
 
     <!--Formulário-->
     <section class="falacomigo">
-        <h2>Interessado no meu currículo?</h2>
-        <form>
-        <label for="email">Email:</label>
-        <input placeholder="exemplo@gmail.com" type="email" name="email" id="email" required>
-        <label for="telefone">Telefone:</label>
-        <input placeholder="(xx) xxxx-xxxx" type="telefone" name="telefone" id="telefone" required>
-        <button type="submit" class="contato">Entrar em Contato</button>
+        <h2>Interessado no meu Currículo?</h2>
+        <form action="https://formspree.io/f/mblojdvr" method="POST">
+            <label for="email">Email:</label>
+            <input placeholder="exemplo@gmail.com" type="email" name="email" id="email" required>
+            <label for="telefone">Telefone:</label>
+            <input placeholder="(xx) xxxx-xxxx" type="telefone" name="telefone" id="telefone" required>
+            <button type="submit" class="button">Entrar em Contato</button>
         </form>
     </section>
 
     <!--Footer-->
     <section class="conteudo">
         <div class="bloco">
-            <h2>Sobre mim</h2>
-            <p>escreva aqui</p>
+            <div id="card">
+            <h2>Sobre Mim</h2>
+            <p>Eu sou Gabriel Antonio Andrighetto, tenho 16 anos e estou fazendo um currículo. Pretendo fazer faculdade de Filosofia e Theologia, para um dia ser ordenado Padre. Eu sempre tive essa dúvida entre construir uma família ou viver uma vida religiosa. Quando fiz um retiro vocacional, essa dúvida ficou maior e no começo eu não consiguia me ver como religioso, já agora, eu não consigo me ver como outra coisa além de religioso</p></div>
         </div>
         <div class="bloco">
             <h2>Canal</h2>
+            <iframe width="300" height="168.75" src="https://www.youtube.com/embed/NgQ8mU1-_XI?si=gJ4e-ryNpquiGaGQ"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
         <div class="bloco">
             <h2>Mensagem Positiva</h2>
             <p>"Não importa o quanto você caia mas sim o quanto você se levanta"</p>
         </div>
     </section>
-    
+
+    <script src="index.js"> </script>
 </body>
 
 </html>

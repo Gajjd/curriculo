@@ -1,3 +1,12 @@
+*{
+    font-family: "Playwrite AU SA", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+
+
 body {
     font-size: 20px;
     background-color: #25623562;
@@ -30,6 +39,7 @@ header .profile img {
 }
 
 header .links a {
+    font-family: "Teko";
     text-decoration: none;
     /*Sem decoração*/
     color: #0077b6;
@@ -39,7 +49,12 @@ header .links a {
     margin: 0 10px;
     /*Margem esquerda = 0. Margem direita = 10*/
 }
-
+h2{
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
 .descricao {
     text-align: center;
     /*Alinhar texto no centro*/
@@ -61,8 +76,9 @@ header .links a {
     border-radius: 10px;
     text-align: center;
 }
-.contato{
+.button{
     cursor: pointer;
+    background-color: rgba(75, 126, 60, 0.549);
 }
 .falacomigo{
     text-align: center;
